@@ -8,6 +8,6 @@
         "sourceMap": false
     },
     "files": [
-        "camara.ts","phonegap.d.ts","hammer.d.ts"
+        "camera.ts","phonegap.d.ts","hammer.d.ts"
     ]
 }
