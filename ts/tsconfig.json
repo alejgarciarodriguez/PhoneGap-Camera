@@ -1,0 +1,12 @@
+{
+    "compilerOptions": {
+        "module": "commonjs",
+        "target": "es5",
+        "outDir": "../www/js",
+        "noImplicitAny": false,
+        "sourceMap": false
+    },
+    "files": [
+        "camara.ts","phonegap.d.ts","hammer.d.ts"
+    ]
+}
