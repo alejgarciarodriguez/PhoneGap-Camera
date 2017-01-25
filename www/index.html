@@ -3,14 +3,26 @@
     <head>
         <meta charset="utf-8">
         <meta name="viewport" content="initial-scale=1, maximum-scale=1, user-scalable=no, width=device-width">
-        <title>Blank App</title>
+        <title>Camara</title>
+        <link rel="stylesheet" type="txt/css" href="css/camara.css"/>
     </head>
     <body>
 
-        <canvas id="foto"> </canvas>
+        <div class="header">
+            <img align="left" src="img/camera.png">
+            <span> Mi cámara con filtros </span>
+        </div>
 
+        <div class="button-container">
+            <button id="button-action" class="button">Tomar foto</button>
+        </div>
 
+        <div class="footer">
+            Creando Apps. Aprende a programas aplicaciones móviles.
+        </div>
+        
         <script type="text/javascript" src="cordova.js"></script>
         <script type="text/javascript" src="js/cordova.js"></script>
+        <script type="text/javascript" src="js/camera.js"></script>
     </body>
 </html>
